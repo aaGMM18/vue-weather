@@ -1,0 +1,259 @@
+#bg__left__zone {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1A374D;
+}
+
+#bg__right__zone {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #406887;
+}
+
+@media (min-width: 992px) {
+  #bg__left__zone {
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*flex-direction: column;*/
+    /*background-color: #1A374D;*/
+    height: 100vh;
+  }
+}
+
+.content__left__zone {
+  width: 75%;
+  padding-top: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+#search__left__zone {
+  width: 75%;
+  padding-top: 30px;
+  height: 100%;
+  display: flex;
+  /*justify-content: space-between;*/
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.content__right__zone {
+  width: 75%;
+  padding-top: 30px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /*padding-bottom: 30px;*/
+  /*background-color: #dddddd;*/
+}
+
+#buttons__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button__cnt {
+  background-color: #6998AB;
+  border-radius: 2px;
+  border: none;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.button__cnt:hover {
+  background-color: #6E707A;
+  border-radius: 2px;
+  border: none;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+#nubes__img {
+  opacity: 0.3;
+}
+
+#bg__clouds {
+}
+
+#bg__num__grade {
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+  font-weight: 600;
+  font-size: 4vw;
+  font-family: 'Raleway';
+}
+
+@media (max-width: 768px) {
+  #bg__num__grade {
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 8vw;
+    font-family: 'Raleway';
+  }
+}
+
+#bg__text__clime {
+  color: #ffffff;
+  font-family: 'Raleway';
+  text-align: center;
+  width: 100%;
+  opacity: 0.4;
+  font-size: 1.7vw;
+}
+
+@media (max-width: 768px) {
+  #bg__text__clime {
+    color: #ffffff;
+    font-family: 'Raleway';
+    text-align: center;
+    width: 100%;
+    opacity: 0.4;
+    font-size: 3.3vw;
+  }
+}
+
+@media (max-width: 576px) {
+  #bg__text__clime {
+    color: #ffffff;
+    font-family: 'Raleway';
+    text-align: center;
+    width: 100%;
+    opacity: 0.4;
+    font-size: 3.6vw;
+  }
+}
+
+#bg__info__today {
+  color: #ffffff;
+  opacity: 0.4;
+  text-align: center;
+  font-size: 1vw;
+}
+
+@media (max-width: 768px) {
+  #bg__info__today {
+    color: #ffffff;
+    opacity: 0.4;
+    text-align: center;
+    font-size: 1.8vw;
+  }
+}
+
+#btn__grades__bg {
+  background-color: #B1D0E0;
+  font-family: 'Raleway';
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+#btn__grades__bg:hover {
+  background-color: #6998AB;
+}
+
+#buttons__grades__bg {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#bg__card__day {
+  background-color: #1A374D;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Raleway';
+  height: 120px;
+  font-size: 0.8rem;
+  padding: 10px 0px 0px;
+  padding-top: 15px;
+}
+
+#bg__card__day img {
+  width: 60%;
+  margin-top: -15px;
+}
+
+#todays__list__bg {
+  margin-top: 20px;
+  font-family: 'Raleway';
+}
+
+#bg__content__today {
+  background-color: #1E213A;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px;
+  font-family: 'Raleway';
+  margin-bottom: 10px;
+}
+
+#bg__content__today p:nth-child(2) {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#bg__content__today p {
+  margin: 5px;
+}
+
+#p__tittle__today {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#icon__today__1 {
+  background-color: #406887;
+}
+
+#credits {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  margin: 15px 0px;
+  color: #ffffff;
+}
+
+#btn__search {
+  background-color: #6998AB;
+  outline: none;
+  border: 1px solid #6998AB;
+  margin-left: 3px;
+}
+
+#btn__search:hover {
+  background-color: #406882;
+  color: #ffffff;
+}
+
+#inp__search {
+  outline: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#group__select__bg {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+option {
+  background-color: #1A374D;
+  border: 1px solid #fff;
+  border-radius: 0px;
+}
+
+option:hover {
+  background-color: #1A374D;
+}
+
